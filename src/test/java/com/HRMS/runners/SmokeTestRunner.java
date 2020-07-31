@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
-	features= "src/test/resources/features/SearchEmployee.feature",//specify which feature file to run
+	features= "src/test/resources/features/",//specify which feature file to run
 								//in our case we do say to run all features inside features package
 	glue="com/hrms/steps",//where we can find implementation code for gherkin steps?
 	//dryRun=false,//if set to true it will quickly scan all gherkin steps have implementation code
